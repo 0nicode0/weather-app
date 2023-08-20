@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Weather App</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Normalize css-->
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Font Roboto-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+		<!-- css -->
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Js -->
+
+		<script type="module" src="js/apiKey.js"></script>
+		<script type="module" src="js/city-model.js"></script>
+		<script type="module" src="js/weather-api.js"></script>
+		<script type="module" src="js/main.js"></script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="banner">		
+					<h1>Weather App</h1>		
+				</div>
+			</header>
+	
+				<input type="search" name="city_search" value="London">
+				<main>
+					<!-- City info goes here -->
+				</main>
+		</div>
+	</body>
+</html>

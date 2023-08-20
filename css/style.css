@@ -1,0 +1,86 @@
+.wrapper{
+	padding-top: 2rem;
+	height: 100%;
+	background-image: linear-gradient(rgba(70, 69, 69, 0.404), rgba(77, 75, 75, 0.315), rgba(70, 70, 70, 0.404));
+}
+
+body {
+	background-color: #323232;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+  .banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(26, 25, 25, 0.568), rgba(0, 0, 0, 0.74));
+	color: white;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	border-radius: 20px;
+  }
+  
+  .banner p {
+	  color: rgb(255, 255, 255);
+  }
+  
+  .banner h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 5.5vh;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+  }
+
+input {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5rem;
+	
+	text-align: center;
+	text-shadow: 30px;
+	font-size: 1.6rem;
+
+	width: 50%;
+	height: 2rem;
+
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	box-shadow: 0 4px 50px black;
+	backdrop-filter: blur(0.1px);
+	border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+main {
+	font-size: 1.09rem;
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	border-radius: 30px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.548))
+}
+
+main h1 {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+main div {
+	padding-bottom: 2rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 4.3rem;
+	justify-content: center;
+	margin: auto;
+	width: 80%;
+}
+
+main div span {
+	font-size: 1.3rem;
+	text-align: center;
+}
